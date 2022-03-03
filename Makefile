@@ -1,7 +1,7 @@
 MAKEFLAGS += --silent
 
 NAME = libreelec-alsa-utils
-VERSION = 10.0.1
+VERSION = 10.0.1-1
 URL = https://github.com/RadxaYuntian/libreelec-alsa-utils
 DESCRIPTION = ALSA helper from LibreELEC
 
