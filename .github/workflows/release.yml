@@ -24,7 +24,7 @@ jobs:
           echo "name=$(cat NAME)_$(cat VERSION)" >> $GITHUB_ENV
       - name: Release
         id: release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ env.tag_name }}
           body_path: README.md
